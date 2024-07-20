@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="LIB">
+      <UniqueIdentifier>{5f9173f5-d901-471f-b25d-3c57d0e9ab62}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HCTP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CHpTcpServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CHpTcpClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBWin\HPSocket\BufferPool.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBWin\HPSocket\BufferPtr.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBWin\HPSocket\CriticalSection.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBWin\HPSocket\Event.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBWin\HPSocket\FuncHelper.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBWin\HPSocket\GeneralHelper.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBWin\HPSocket\MiscHelper.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBWin\HPSocket\PrivateHeap.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBWin\HPSocket\RingBuffer.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBWin\HPSocket\RWLock.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBWin\HPSocket\Semaphore.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBWin\HPSocket\SocketHelper.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBWin\HPSocket\SysHelper.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBWin\HPSocket\TcpClient.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBWin\HPSocket\TcpServer.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBWin\HPSocket\WaitFor.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="CMongoDB.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CMdThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CTdThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyLib.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CLogThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Global\stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBWin\NTP\VxNtpHelper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CHtpSystem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CRiskThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CFastKey.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBWin\CJson\CJsonObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBWin\CJson\cJSON.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CTargetCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CHpTcpServer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CHpTcpClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBWin\HPSocket\BufferPool.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBWin\HPSocket\BufferPtr.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBWin\HPSocket\CriticalSection.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBWin\HPSocket\Event.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBWin\HPSocket\FuncHelper.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBWin\HPSocket\GeneralHelper.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBWin\HPSocket\HPTypeDef.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBWin\HPSocket\MiscHelper.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBWin\HPSocket\PrivateHeap.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBWin\HPSocket\RingBuffer.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBWin\HPSocket\RWLock.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBWin\HPSocket\Semaphore.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBWin\HPSocket\Singleton.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBWin\HPSocket\SocketHelper.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBWin\HPSocket\SocketInterface.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBWin\HPSocket\STLHelper.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBWin\HPSocket\SysHelper.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBWin\HPSocket\TcpClient.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBWin\HPSocket\TcpServer.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBWin\HPSocket\types.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBWin\HPSocket\WaitFor.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBWin\HPSocket\Win32Helper.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="CMongoDB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMongoTaskDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMdThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CTdThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBWin\CTP\DataCollect.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBWin\CTP\ThostFtdcMdApi.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBWin\CTP\ThostFtdcTraderApi.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBWin\CTP\ThostFtdcUserApiDataType.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBWin\CTP\ThostFtdcUserApiStruct.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="CCycleQueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyLib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CLogThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimeCalc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Global\stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBWin\NTP\VxDType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBWin\NTP\VxNtpHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CHtpSystem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CRiskThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CFastKey.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBWin\CJson\CJsonObject.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBWin\CJson\cJSON.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CTargetCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="LIBWin\MongoDBCXX\lib\bsoncxx.lib">
+      <Filter>LIB</Filter>
+    </Library>
+    <Library Include="LIBWin\MongoDBCXX\lib\mongocxx.lib">
+      <Filter>LIB</Filter>
+    </Library>
+    <Library Include="LIBWin\CTP\thostmduserapi_se.lib">
+      <Filter>LIB</Filter>
+    </Library>
+    <Library Include="LIBWin\CTP\thosttraderapi_se.lib">
+      <Filter>LIB</Filter>
+    </Library>
+    <Library Include="LIBWin\CTP\WinDataCollect.lib">
+      <Filter>LIB</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LIBWin\CTP\error.dtd">
+      <Filter>LIB</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="LIBWin\CTP\error.xml">
+      <Filter>LIB</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

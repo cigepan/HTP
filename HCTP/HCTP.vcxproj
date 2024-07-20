@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{7092c069-22e1-4c3b-84c5-cbc2e82c45a5}</ProjectGuid>
+    <RootNamespace>HCTP</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;WIN32;_WINDOWS;_RUNLOG;_CRT_SECURE_NO_WARNINGS;_USE_MONGODB;_USE_HPTCP;_DEBUG_MODE;_SHOW_HTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>Default</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)Global;$(ProjectDir)LIBWin\HPSocket;$(ProjectDir);$(ProjectDir)..\HCTP\LIBWin\MongoDBCXX\include;$(ProjectDir)..\HCTP\LIBWin\MongoDBCXX\include\mongocxx\v_noabi\mongocxx;$(ProjectDir)..\HCTP\LIBWin\MongoDBCXX\include\mongocxx\v_noabi;$(ProjectDir)..\HCTP\LIBWin\MongoDBCXX\include\bsoncxx\v_noabi;D:\boost_1_77_0;$(ProjectDir)..\HCTP\LIBWin\CTP;$(ProjectDir)LIBWin\CJson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <DisableSpecificWarnings>4819</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\HCTP\LIBWin\MongoDBCXX\lib</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CONSOLE;WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_USE_MONGODB;_USE_HPTCP;_SHOW_HTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>Default</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)Global;$(ProjectDir)LIBWin\HPSocket;$(ProjectDir);$(ProjectDir)..\HCTP\LIBWin\MongoDBCXX\include;$(ProjectDir)..\HCTP\LIBWin\MongoDBCXX\include\mongocxx\v_noabi\mongocxx;$(ProjectDir)..\HCTP\LIBWin\MongoDBCXX\include\mongocxx\v_noabi;$(ProjectDir)..\HCTP\LIBWin\MongoDBCXX\include\bsoncxx\v_noabi;D:\boost_1_77_0;$(ProjectDir)..\HCTP\LIBWin\CTP;$(ProjectDir)..\HCTP\LIBWin\NTP;$(ProjectDir)LIBWin\CJson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4819</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <DebugInformationFormat>None</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\HCTP\LIBWin\MongoDBCXX\lib</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CFastKey.cpp" />
+    <ClCompile Include="CHpTcpClient.cpp" />
+    <ClCompile Include="CHpTcpServer.cpp" />
+    <ClCompile Include="CHtpSystem.cpp" />
+    <ClCompile Include="CLogThread.cpp" />
+    <ClCompile Include="CMdThread.cpp" />
+    <ClCompile Include="CMongoDB.cpp" />
+    <ClCompile Include="CMyData.cpp" />
+    <ClCompile Include="CMyLib.cpp" />
+    <ClCompile Include="CRiskThread.cpp" />
+    <ClCompile Include="CTargetCtrl.cpp" />
+    <ClCompile Include="CTdThread.cpp" />
+    <ClCompile Include="Global\stdafx.cpp" />
+    <ClCompile Include="HCTP.cpp" />
+    <ClCompile Include="LIBWin\CJson\cJSON.c" />
+    <ClCompile Include="LIBWin\CJson\CJsonObject.cpp" />
+    <ClCompile Include="LIBWin\HPSocket\BufferPool.cpp" />
+    <ClCompile Include="LIBWin\HPSocket\BufferPtr.cpp" />
+    <ClCompile Include="LIBWin\HPSocket\CriticalSection.cpp" />
+    <ClCompile Include="LIBWin\HPSocket\Event.cpp" />
+    <ClCompile Include="LIBWin\HPSocket\FuncHelper.cpp" />
+    <ClCompile Include="LIBWin\HPSocket\GeneralHelper.cpp" />
+    <ClCompile Include="LIBWin\HPSocket\MiscHelper.cpp" />
+    <ClCompile Include="LIBWin\HPSocket\PrivateHeap.cpp" />
+    <ClCompile Include="LIBWin\HPSocket\RingBuffer.cpp" />
+    <ClCompile Include="LIBWin\HPSocket\RWLock.cpp" />
+    <ClCompile Include="LIBWin\HPSocket\Semaphore.cpp" />
+    <ClCompile Include="LIBWin\HPSocket\SocketHelper.cpp" />
+    <ClCompile Include="LIBWin\HPSocket\SysHelper.cpp" />
+    <ClCompile Include="LIBWin\HPSocket\TcpClient.cpp" />
+    <ClCompile Include="LIBWin\HPSocket\TcpServer.cpp" />
+    <ClCompile Include="LIBWin\HPSocket\WaitFor.cpp" />
+    <ClCompile Include="LIBWin\NTP\VxNtpHelper.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CCycleQueue.h" />
+    <ClInclude Include="CFastKey.h" />
+    <ClInclude Include="CHpTcpClient.h" />
+    <ClInclude Include="CHpTcpServer.h" />
+    <ClInclude Include="CHtpSystem.h" />
+    <ClInclude Include="CLogThread.h" />
+    <ClInclude Include="CMdThread.h" />
+    <ClInclude Include="CMongoDB.h" />
+    <ClInclude Include="CMongoTaskDef.h" />
+    <ClInclude Include="CMyData.h" />
+    <ClInclude Include="CMyLib.h" />
+    <ClInclude Include="CRiskThread.h" />
+    <ClInclude Include="CTargetCtrl.h" />
+    <ClInclude Include="CTdThread.h" />
+    <ClInclude Include="CTimeCalc.h" />
+    <ClInclude Include="Global\stdafx.h" />
+    <ClInclude Include="LIBWin\CJson\cJSON.h" />
+    <ClInclude Include="LIBWin\CJson\CJsonObject.hpp" />
+    <ClInclude Include="LIBWin\CTP\DataCollect.h" />
+    <ClInclude Include="LIBWin\CTP\ThostFtdcMdApi.h" />
+    <ClInclude Include="LIBWin\CTP\ThostFtdcTraderApi.h" />
+    <ClInclude Include="LIBWin\CTP\ThostFtdcUserApiDataType.h" />
+    <ClInclude Include="LIBWin\CTP\ThostFtdcUserApiStruct.h" />
+    <ClInclude Include="LIBWin\HPSocket\BufferPool.h" />
+    <ClInclude Include="LIBWin\HPSocket\BufferPtr.h" />
+    <ClInclude Include="LIBWin\HPSocket\CriticalSection.h" />
+    <ClInclude Include="LIBWin\HPSocket\Event.h" />
+    <ClInclude Include="LIBWin\HPSocket\FuncHelper.h" />
+    <ClInclude Include="LIBWin\HPSocket\GeneralHelper.h" />
+    <ClInclude Include="LIBWin\HPSocket\HPTypeDef.h" />
+    <ClInclude Include="LIBWin\HPSocket\MiscHelper.h" />
+    <ClInclude Include="LIBWin\HPSocket\PrivateHeap.h" />
+    <ClInclude Include="LIBWin\HPSocket\RingBuffer.h" />
+    <ClInclude Include="LIBWin\HPSocket\RWLock.h" />
+    <ClInclude Include="LIBWin\HPSocket\Semaphore.h" />
+    <ClInclude Include="LIBWin\HPSocket\Singleton.h" />
+    <ClInclude Include="LIBWin\HPSocket\SocketHelper.h" />
+    <ClInclude Include="LIBWin\HPSocket\SocketInterface.h" />
+    <ClInclude Include="LIBWin\HPSocket\STLHelper.h" />
+    <ClInclude Include="LIBWin\HPSocket\SysHelper.h" />
+    <ClInclude Include="LIBWin\HPSocket\TcpClient.h" />
+    <ClInclude Include="LIBWin\HPSocket\TcpServer.h" />
+    <ClInclude Include="LIBWin\HPSocket\types.h" />
+    <ClInclude Include="LIBWin\HPSocket\WaitFor.h" />
+    <ClInclude Include="LIBWin\HPSocket\Win32Helper.h" />
+    <ClInclude Include="LIBWin\NTP\VxDType.h" />
+    <ClInclude Include="LIBWin\NTP\VxNtpHelper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="LIBWin\CTP\thostmduserapi_se.lib" />
+    <Library Include="LIBWin\CTP\thosttraderapi_se.lib" />
+    <Library Include="LIBWin\CTP\WinDataCollect.lib" />
+    <Library Include="LIBWin\MongoDBCXX\lib\bsoncxx.lib" />
+    <Library Include="LIBWin\MongoDBCXX\lib\mongocxx.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LIBWin\CTP\error.dtd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="LIBWin\CTP\error.xml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
